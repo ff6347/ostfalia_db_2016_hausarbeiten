@@ -1,4 +1,9 @@
-## 3.1 Datenerhebung
+## 3.1 Netflix 
+
+TBD  
+
+
+## 3.1.1 Datenerhebung
 
 Netflix weiß von jedem Nutzer, was er schaut, wann er schaut, wie lange er etwas schaut, an welcher Stelle aufgehört wurde, zu schauen und wie er auf den Film oder die Serie aufmerksam geworden ist.
 
@@ -13,7 +18,7 @@ Um den Algorithmus einsetzen zu können, mussten einige Anpassungen vorgenommen 
 In 2012 wurden bereits 75% der Filme und Serien aufgrund des Empfehlungssystems geschaut.
 
 
-## 3.2 Speicherung / Algorithmus
+## 3.1.2 Speicherung / Algorithmus
 
 In Anbetracht der Tatsache, dass Netflix mehr als 85 Millionen Abonnenten hat (Stand von Oktober 2016 laut http://www.wiwo.de/unternehmen/it/netflix-in-deutschland-mehr-abonnenten-als-einwohner/14702184.html), wird klar, dass sie ein riesiges Repertoire an “personalisierten Genres” haben.
 
@@ -31,7 +36,7 @@ Die ausgebildeten Filmeschauer bewerten dutzende von Eigenschaften, darunter auc
 
 Durch den Alghorithmus hat Netflix eine neue Form des Empfehlens geschaffen.
 
-### 3.2.1 Kollaboratives Filtern
+### 3.1.2.1 Kollaboratives Filtern
 http://inka.htw-berlin.de/Sieck/Abschlussarbeiten/Hebeisen.pdf
 
 Die am häufigsten verbreitete Filtermethode für Empfehlungssysteme ist heutzutage das kollaborative Filtern. Ein kollaboratives System ist ein lernendes System, welches eine vorhandene Datenbasis nutzt. Anhand dieser Datenbasis sollen Verhaltensmuster von Nutzereingaben zu erkennen sein und es soll versucht werden, eine Verbindung zwischen eingegebenen und bereits vorhandenen Daten herzustellen (User-to-User). Es werden also Empfehlungen auf Basis von Bewertungen anderer Nutzer gegeben. Das Interessenprofil eines Nutzers soll auf das Interessenprofil eines anderen Nutzers übertragen werden. Bewertungen erfolgen hierbei entweder durch konkrete Bewertungen einer bestimmten Sache (zum Beispiel eines Filmes), indem beispielsweise anhand einer Skala ein Rating abgegeben wird oder angegeben wird, ob etwas nützlich war, oder aber auch durch das implizite Verhalten des Nutzers. Hierbei wird zum Beispiel berückstichtigt, wie lange ein Nutzer etwas angeschaut hat oder was angeschaut wurde.
@@ -44,15 +49,15 @@ Bei dem kollaborativen Empfehlungssystem wurde versucht vorherzusagen, wie viele
 
 Das Hauptproblem von kollaborativen Empfehlungssystemen ist dementsprechend das Fehlen einer Datenbasis. Neue Nutzer haben noch keine Bewertungen abgegeben und haben somit auch keine statistischen Nachbarn. Selbes gilt auch für die Objekte, die einem System neu hinzugefügt werden. Wird also beispielweise ein Film neu hinzugefügt, hat er zu Beginn keine Bewertungen und kann somit nicht bei der Technik des kollaborativen Filtern berückstichtigt werden.
 
-### 3.2.2 Inhaltsbasiertes Filtern
+### 3.1.2.2 Inhaltsbasiertes Filtern
 
 Eine andere Filtermethode ist das inhaltsbasierte Filtern. Hier werden Empfehlungen anhand von Ähnlichkeiten von Objekten oder Nutzerprofilen generiert. Die Objekte werden hierbei durch ihre Inhalte oder durch Eigenschaften und Metadaten beschrieben. Anders als beim kollaborativen Filtern wird hier nicht versucht, eine Verbindung zwischen mehreren Nutzern herzustellen, sondern es wird versucht, eine Verbindung zwischen mehreren Objekten herzustellen (Item-to-Item). Ein Nutzerprofil beinhaltet Interessen über Objekt-Attribute, die zum einen durch direkte Eingabe oder durch implizites Nutzungsverhalten (zum Beispiel der Analyse der Tätigkeiten des Nutzers) gesammelt werden. Empfehlungen werden ausgesprochen, wenn eine nahe Verbindung zwischen Nutzerpräferenzen und Objekteigenschaft besteht.
 
-### 3.2.3 Algorithmus von Netflix
+### 3.1.2.3 Algorithmus von Netflix
 Eine Aussage im Atlantic Artikel besagt, dass Netflix ein System gebaut habe, welches wirklich nur mit einem in der Technologie-Welt vergleichbar ist, und zwar dem NewsFeed von Facebook. 
 
 
-## 3.3 Analyse der Daten
+## 3.1.3 Analyse der Daten
 
 Um Schlussfolgerungen aus Datenerhebungen zu ziehen, muss zuerst eine gewisse Menge an Daten zur Analyse bereit stehen.
 Erst wenn genug Menschen beispielsweise an einer bestimmten Stelle Pause gedrückt oder vorgespult haben, kann man anfangen, Schlussfolgerungen aus diesem Verhalten zu ziehen.
@@ -63,7 +68,7 @@ Aufgezeichnet werden alle erdenklichen Daten, von Standort des Nutzers, Gerät d
 Zum Einen weiß Netflix durch die Analyse dieser Daten, welche Schauspieler und welche Genres bevorzugt werden. Zum Anderen kann so aber auch herausgefunden werden, ob am Wochenende eher Serien oder eher Filme geschaut werden. Dies wird dann bei den nächsten Empfehlungen berücksichtigt und es wird mehr von den favorisierten Formaten vorgeschlagen.
 
 
-## 3.4 Nutzung der Daten 
+## 3.1.4 Nutzung der Daten 
 
 Laut Salon arbeitet Netflix seit 2012 daran, insofern Nutzen aus ihrer Big Date Kapazität zu ziehen, als dass sie versuchen damit ihre Programmauswahl zu beeinflussen. Konkret bedeutet es, dass sie Serien aufgrund ihrere Analyseergebnisse kaufen oder produzieren.
 Das Pilot-Projekt dieser Strategie ist die Serie *House Of Cards*. *House Of Cards* war ursprünglich eine britische Miniserie, die 1990 auf dem britischen Kanal BBC ausgestrahlt wurde. Die Serie bestand nur aus vier Episoden und handelt von einem Politiker, der zusammen mit seiner Ehefrau Rachepläne ausübt, nachdem er vom Premierminister hintergangen wurde.
@@ -84,7 +89,7 @@ Die traditionellen Studios haben einen großen Nachteil. Einer der größten Pos
 
 Die Nutzer von Netflix entscheiden durch ihr Nutzungsverhalten, was produziert wird und was nicht. Ebenso legen sie fest, welche Schauspieler sie sehen wollen. Netflix hat es geschafft, eine Brücke zwischen Nutzern und Produzenten zu bauen. Das Team, das entscheidet, was produziert wird, kann sich ganz einfach an den Daten der Nutzer orientieren.
 
-## 3.5 Visualisierung
+## 3.1.5 Visualisierung
 
 
 Die Darstellung einzelner Sendungen hängt nicht vom Zufall ab. Ganz im Gegenteil: Die Platzierung und Auswahl der richtigen Sendungen für die einzelnen Zeilen ist ein wichtiger Teil des Personalisierungsansatzes von Netflix. Es muss also herausgefunden werden, welche Zeilen am relevantesten für jeden einzelnen Nutzer sind sowie mit welchen Sendungen die Zeilen gefüllt werden. Außerdem muss entschieden werden, an welcher Stelle der limitierten Startseite jede Zeile platziert wird, so dass die Auswahl des nächsten Videos intuitiv geschehen wird.
@@ -151,7 +156,7 @@ Um die "Weiterschauen"-Zeile sinnvoll, bzw. an einer geeigneten Stelle auf der S
 Aufgrund dieser Wahrscheinlichkeit könnten mehrere Ansätze verfolgt werden. Ein einfacher Ansatz wäre, dass es nur zwei Möglichkeiten gibt, die Zeile zu platzieren: oben auf der Seite oder weiter unten auf der Seite.
 Durch Anwendung eines Schwellenwertes auf die vorhergesehene Wahrscheinlichkeit kann Netflix entscheiden, in welcher dieser beiden möglichen Positionen die Zeile platziert wird. Ein anderer Ansatz wäre, die Wahrscheinlichkeit auf verschiedene Positionen abzubilden.
 
-## 3.6 Andere Anbieter:
+## 3.1.6 Andere Anbieter:
 Amazon Prime, Snap von Sky, Maxdome, Videoload, Watchever
 
 http://techblog.netflix.com/2012/04/netflix-recommendations-beyond-5-stars.html
